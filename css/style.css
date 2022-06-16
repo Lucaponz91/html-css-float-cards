@@ -5,6 +5,10 @@
     padding: 0%;
 }
 
+body {
+    margin: 50px;
+}
+
 h1 {
     color: #E53170;
     text-align: center;
