@@ -15,6 +15,9 @@ p {
     text-align: center;
 }
 
+.container {
+    max-width: 1000px;
+}
 .card {
     display: inline-block;
     width: calc(100% / 3);
@@ -25,6 +28,8 @@ p {
     float: left;
 }
 
-.nome {
-    
+.clearfix::after {
+    content: '';
+    clear: both;
+    display: table;
 }
