@@ -30,6 +30,9 @@ p {
     width: calc(calc(100% - 40px) / 3);
     float: left;
     margin-bottom: 50px;
+    background-color: black;
+    max-height: 100px;
+    box-shadow: 10px 10px 10px black;
 }
 .card:nth-child(3n+2) {
     margin-left: 20px;
@@ -48,4 +51,15 @@ p {
 
 .job {
     text-align: left;
+    color: white;
+    margin-top: 8px;
+}
+
+.nome {
+    color: white;
+}
+
+a {
+    color: #4DC9E5;
+    text-decoration: none;
 }
