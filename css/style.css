@@ -1,18 +1,25 @@
 *{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     box-sizing: border-box;
-    margin: 2%;
+    margin: 0%;
     padding: 0%;
 }
 
 h1 {
     color: #E53170;
     text-align: center;
+    margin-top: 50px;
 }
 
 p {
     font-weight: 500;
     text-align: center;
+    margin-top: 30px;
+
+}
+
+#cardwrapper {
+    margin-top: 60px;
 }
 
 .container {
@@ -22,6 +29,7 @@ p {
     display: inline-block;
     width: calc(100% / 3);
     float: left;
+    margin-bottom: 50px;
 }
 
 .cardimage {
@@ -32,4 +40,8 @@ p {
     content: '';
     clear: both;
     display: table;
+}
+
+.job {
+    text-align: left;
 }
