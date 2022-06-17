@@ -8,7 +8,7 @@
 body {
     margin: 50px;
     padding-left: 15%;
-    min-width: 1200px;
+    
 }
 
 header {
@@ -25,7 +25,7 @@ p {
     font-weight: 500;
     text-align: center;
     margin-top: 30px;
-    max-width: 1000px;
+    
 
 }
 
@@ -33,9 +33,7 @@ p {
     margin-top: 60px;
 }
 
-.container {
-    max-width: 1000px;
-}
+
 .card {
     display: inline-block;
     width: calc(calc(100% - 40px) / 3);
